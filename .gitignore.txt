@@ -1,0 +1,40 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and configuration files
+.env
+.env.local
+.env.*.local
+
+# Ignore private keys and credentials
+*.pem
+*.key
+*.ppk
+*.crt
+*.csr
+id_rsa
+id_rsa.pub
+
+# Ignore build and dependency folders
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.cache
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore OS-specific or compressed files
+*.zip
+*.rar
+*.tar
+*.gz
