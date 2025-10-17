@@ -1,0 +1,8 @@
+*.pem 
+*.key 
+*.ppk 
+*.env 
+id_rsa 
+node_modules/ 
+dist/ 
+*.log 
